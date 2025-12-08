@@ -1,14 +1,3 @@
-# dags/shopverse_daily_pipeline.py
-"""
-Shopverse Daily ETL Pipeline (No PostgresOperator Version)
-----------------------------------------------------------
-This version uses ONLY:
-  - @dag / @task
-  - FileSensor
-  - PostgresHook
-No provider packages are required besides core Airflow.
-"""
-
 from __future__ import annotations
 import os
 import json
@@ -66,9 +55,8 @@ def run_sql_file(path: str):
     hook.run(sql)
 
 
-# -------------------------------------------------------------------
 # DAG
-# -------------------------------------------------------------------
+
 @dag(
     dag_id="shopverse_daily_pipeline",
     schedule="0 1 * * *",
@@ -81,9 +69,7 @@ def shopverse_daily_pipeline():
 
     start = EmptyOperator(task_id="start")
 
-    # -------------------------------------------------------------------
     # FILE SENSORS
-    # -------------------------------------------------------------------
     customers_sensor = FileSensor(
         task_id="wait_customers",
         filepath=f"{BASE_PATH}/landing/customers/customers_{{{{  macros.ds_format(macros.ds_add(ds, -1), '%Y-%m-%d', '%Y%m%d')  }}}}.csv",
@@ -108,9 +94,7 @@ def shopverse_daily_pipeline():
         mode="reschedule",
     )
 
-    # -------------------------------------------------------------------
-    # STAGING TaskGroup (Python-only)
-    # -------------------------------------------------------------------
+    # STAGING TaskGroup
     with TaskGroup("staging") as staging:
 
         @task(task_id="truncate_staging")
@@ -172,9 +156,7 @@ def shopverse_daily_pipeline():
 
         trunc >> [c, p, o]
 
-    # -------------------------------------------------------------------
     # WAREHOUSE TaskGroup (External SQL via PostgresHook)
-    # -------------------------------------------------------------------
     with TaskGroup("warehouse") as warehouse:
 
         @task
@@ -195,9 +177,7 @@ def shopverse_daily_pipeline():
 
         d1 >> d2 >> f1
 
-    # -------------------------------------------------------------------
     # DATA QUALITY CHECKS
-    # -------------------------------------------------------------------
     @task
     def dq_row_count(sql: str, check_name: str, fail_condition: str):
         """Generic DQ check using PostgresHook."""
@@ -266,9 +246,7 @@ def shopverse_daily_pipeline():
 
     fact_dq = validate_fact_match()
 
-    # -------------------------------------------------------------------
     # BRANCHING: LOW VOLUME DETECTION
-    # -------------------------------------------------------------------
     def decide_branch(ti):
         fact_count = ti.xcom_pull(task_ids="validate_fact_match")["fact"]
         return "warn_low_volume" if fact_count < MIN_THRESHOLD else "normal_completion"
@@ -288,9 +266,7 @@ def shopverse_daily_pipeline():
     warn = warn_low_volume()
     normal = EmptyOperator(task_id="normal_completion")
 
-    # -------------------------------------------------------------------
-    # OPTIONAL SLACK ON FAILURE
-    # -------------------------------------------------------------------
+    # SLACK NOTIFICATION
     if SLACK_AVAILABLE:
         slack_fail = SlackWebhookOperator(
             task_id="slack_failure",
@@ -302,12 +278,7 @@ def shopverse_daily_pipeline():
     else:
         slack_fail = EmptyOperator(task_id="slack_failure")
 
-    # -------------------------------------------------------------------
     # DAG WIRING
-    # -------------------------------------------------------------------
-     # -------------------------------------------------------------------
-    # DAG WIRING (Corrected Slack Failure Handling)
-    # -------------------------------------------------------------------
     (
         start
         >> [customers_sensor, products_sensor, orders_sensor]
