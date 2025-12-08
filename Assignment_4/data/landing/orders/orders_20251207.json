@@ -1,0 +1,32 @@
+[
+  {
+    "order_id": "O001",
+    "order_timestamp": "2025-12-07T09:15:00Z",
+    "customer_id": "C001",
+    "product_id": "P001",
+    "quantity": 2,
+    "total_amount": 39.98,
+    "currency": "USD",
+    "status": "COMPLETED"
+  },
+  {
+    "order_id": "O002",
+    "order_timestamp": "2025-12-07T10:45:00Z",
+    "customer_id": "C003",
+    "product_id": "P003",
+    "quantity": 1,
+    "total_amount": 129.99,
+    "currency": "USD",
+    "status": "COMPLETED"
+  },
+  {
+    "order_id": "O003",
+    "order_timestamp": "2025-12-07T11:00:00Z",
+    "customer_id": "C002",
+    "product_id": "P004",
+    "quantity": 5,
+    "total_amount": 12.45,
+    "currency": "USD",
+    "status": "PENDING"
+  }
+]
