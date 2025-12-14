@@ -72,8 +72,3 @@ YoY Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 
 ---
 
-If you want, I can:
-
-* Tighten this further to **one-page submission**
-* Add **data model diagram text**
-* Customize wording for **interview / assessment submission**
