@@ -1,0 +1,201 @@
+product_id,product_name,category,brand,unit_price,currency
+PRD2000,Galaxy Tab S9,Electronics,Samsung,735,USD
+PRD2001,AirPods Pro,Accessories,Apple,251,USD
+PRD2002,Apple Watch Series 9,Wearables,Apple,473,USD
+PRD2003,Dell XPS 13,Laptops,Dell,1365,USD
+PRD2004,Apple Watch Series 9,Wearables,Apple,424,USD
+PRD2005,Logitech MX Master 3,Accessories,Logitech,98,USD
+PRD2006,Apple Watch Series 9,Wearables,Apple,389,USD
+PRD2007,Sony WH-1000XM5,Accessories,Sony,450,USD
+PRD2008,Dell XPS 13,Laptops,Dell,1301,USD
+PRD2009,Samsung Galaxy Watch 6,Wearables,Samsung,377,USD
+PRD2010,iPhone 14,Electronics,Apple,854,USD
+PRD2011,JBL Charge 5,Accessories,JBL,185,USD
+PRD2012,JBL Charge 5,Accessories,JBL,242,USD
+PRD2013,Galaxy S23,Electronics,Samsung,809,USD
+PRD2014,Galaxy Tab S9,Electronics,Samsung,684,USD
+PRD2015,Apple Watch Series 9,Wearables,Apple,393,USD
+PRD2016,Samsung Galaxy Watch 6,Wearables,Samsung,359,USD
+PRD2017,Samsung Galaxy Watch 6,Wearables,Samsung,423,USD
+PRD2018,Apple Watch Series 9,Wearables,Apple,392,USD
+PRD2019,Sony WH-1000XM5,Accessories,Sony,443,USD
+PRD2020,iPhone 14,Electronics,Apple,752,USD
+PRD2021,MacBook Pro M3,Laptops,Apple,1998,USD
+PRD2022,Samsung Galaxy Watch 6,Wearables,Samsung,392,USD
+PRD2023,HP Spectre x360,Laptops,HP,1406,USD
+PRD2024,AirPods Pro,Accessories,Apple,312,USD
+PRD2025,Logitech MX Master 3,Accessories,Logitech,101,USD
+PRD2026,MacBook Air M2,Laptops,Apple,1299,USD
+PRD2027,JBL Charge 5,Accessories,JBL,278,USD
+PRD2028,ThinkPad X1 Carbon,Laptops,Lenovo,1555,USD
+PRD2029,Apple Watch Series 9,Wearables,Apple,389,USD
+PRD2030,Samsung Galaxy Watch 6,Wearables,Samsung,377,USD
+PRD2031,MacBook Air M2,Laptops,Apple,1246,USD
+PRD2032,AirPods Pro,Accessories,Apple,280,USD
+PRD2033,JBL Charge 5,Accessories,JBL,155,USD
+PRD2034,iPhone 15,Electronics,Apple,850,USD
+PRD2035,iPhone 15,Electronics,Apple,873,USD
+PRD2036,Logitech MX Master 3,Accessories,Logitech,70,USD
+PRD2037,Galaxy S23,Electronics,Samsung,899,USD
+PRD2038,Dell XPS 13,Laptops,Dell,1359,USD
+PRD2039,AirPods Pro,Accessories,Apple,331,USD
+PRD2040,MacBook Air M2,Laptops,Apple,1294,USD
+PRD2041,Logitech MX Master 3,Accessories,Logitech,72,USD
+PRD2042,iPhone 14,Electronics,Apple,775,USD
+PRD2043,AirPods Pro,Accessories,Apple,317,USD
+PRD2044,iPhone 14,Electronics,Apple,855,USD
+PRD2045,ThinkPad X1 Carbon,Laptops,Lenovo,1512,USD
+PRD2046,MacBook Air M2,Laptops,Apple,1232,USD
+PRD2047,MacBook Air M2,Laptops,Apple,1253,USD
+PRD2048,Sony WH-1000XM5,Accessories,Sony,425,USD
+PRD2049,Dell XPS 13,Laptops,Dell,1271,USD
+PRD2050,HP Spectre x360,Laptops,HP,1394,USD
+PRD2051,iPhone 14,Electronics,Apple,838,USD
+PRD2052,MacBook Air M2,Laptops,Apple,1165,USD
+PRD2053,iPhone 14,Electronics,Apple,822,USD
+PRD2054,Apple Watch Series 9,Wearables,Apple,470,USD
+PRD2055,Apple Watch Series 9,Wearables,Apple,493,USD
+PRD2056,HP Spectre x360,Laptops,HP,1494,USD
+PRD2057,iPhone 15,Electronics,Apple,933,USD
+PRD2058,HP Spectre x360,Laptops,HP,1472,USD
+PRD2059,iPhone 15,Electronics,Apple,997,USD
+PRD2060,ThinkPad X1 Carbon,Laptops,Lenovo,1547,USD
+PRD2061,AirPods Pro,Accessories,Apple,312,USD
+PRD2062,JBL Charge 5,Accessories,JBL,150,USD
+PRD2063,JBL Charge 5,Accessories,JBL,186,USD
+PRD2064,AirPods Pro,Accessories,Apple,322,USD
+PRD2065,Sony WH-1000XM5,Accessories,Sony,389,USD
+PRD2066,Samsung Galaxy Watch 6,Wearables,Samsung,335,USD
+PRD2067,Sony WH-1000XM5,Accessories,Sony,356,USD
+PRD2068,JBL Charge 5,Accessories,JBL,235,USD
+PRD2069,Galaxy S23,Electronics,Samsung,877,USD
+PRD2070,Samsung Galaxy Watch 6,Wearables,Samsung,339,USD
+PRD2071,iPhone 14,Electronics,Apple,858,USD
+PRD2072,Sony WH-1000XM5,Accessories,Sony,437,USD
+PRD2073,iPhone 14,Electronics,Apple,800,USD
+PRD2074,Apple Watch Series 9,Wearables,Apple,482,USD
+PRD2075,Galaxy Tab S9,Electronics,Samsung,752,USD
+PRD2076,AirPods Pro,Accessories,Apple,271,USD
+PRD2077,Apple Watch Series 9,Wearables,Apple,380,USD
+PRD2078,AirPods Pro,Accessories,Apple,313,USD
+PRD2079,iPhone 15,Electronics,Apple,886,USD
+PRD2080,MacBook Air M2,Laptops,Apple,1259,USD
+PRD2081,HP Spectre x360,Laptops,HP,1459,USD
+PRD2082,Dell XPS 13,Laptops,Dell,1323,USD
+PRD2083,Samsung Galaxy Watch 6,Wearables,Samsung,386,USD
+PRD2084,Apple Watch Series 9,Wearables,Apple,473,USD
+PRD2085,Galaxy Tab S9,Electronics,Samsung,737,USD
+PRD2086,AirPods Pro,Accessories,Apple,224,USD
+PRD2087,JBL Charge 5,Accessories,JBL,206,USD
+PRD2088,iPhone 15,Electronics,Apple,978,USD
+PRD2089,Galaxy Tab S9,Electronics,Samsung,783,USD
+PRD2090,ThinkPad X1 Carbon,Laptops,Lenovo,1534,USD
+PRD2091,Galaxy Tab S9,Electronics,Samsung,733,USD
+PRD2092,Samsung Galaxy Watch 6,Wearables,Samsung,299,USD
+PRD2093,ThinkPad X1 Carbon,Laptops,Lenovo,1554,USD
+PRD2094,ThinkPad X1 Carbon,Laptops,Lenovo,1561,USD
+PRD2095,Galaxy Tab S9,Electronics,Samsung,736,USD
+PRD2096,MacBook Pro M3,Laptops,Apple,2063,USD
+PRD2097,JBL Charge 5,Accessories,JBL,266,USD
+PRD2098,Dell XPS 13,Laptops,Dell,1356,USD
+PRD2099,iPhone 14,Electronics,Apple,792,USD
+PRD2100,Logitech MX Master 3,Accessories,Logitech,76,USD
+PRD2101,Samsung Galaxy Watch 6,Wearables,Samsung,385,USD
+PRD2102,Galaxy S23,Electronics,Samsung,832,USD
+PRD2103,Galaxy S23,Electronics,Samsung,872,USD
+PRD2104,HP Spectre x360,Laptops,HP,1359,USD
+PRD2105,MacBook Air M2,Laptops,Apple,1169,USD
+PRD2106,Galaxy Tab S9,Electronics,Samsung,708,USD
+PRD2107,Galaxy Tab S9,Electronics,Samsung,747,USD
+PRD2108,Galaxy S23,Electronics,Samsung,882,USD
+PRD2109,iPhone 15,Electronics,Apple,888,USD
+PRD2110,ThinkPad X1 Carbon,Laptops,Lenovo,1530,USD
+PRD2111,MacBook Air M2,Laptops,Apple,1181,USD
+PRD2112,iPhone 15,Electronics,Apple,911,USD
+PRD2113,Galaxy Tab S9,Electronics,Samsung,790,USD
+PRD2114,MacBook Pro M3,Laptops,Apple,1989,USD
+PRD2115,HP Spectre x360,Laptops,HP,1413,USD
+PRD2116,ThinkPad X1 Carbon,Laptops,Lenovo,1549,USD
+PRD2117,HP Spectre x360,Laptops,HP,1393,USD
+PRD2118,Logitech MX Master 3,Accessories,Logitech,92,USD
+PRD2119,MacBook Air M2,Laptops,Apple,1188,USD
+PRD2120,AirPods Pro,Accessories,Apple,239,USD
+PRD2121,JBL Charge 5,Accessories,JBL,172,USD
+PRD2122,JBL Charge 5,Accessories,JBL,271,USD
+PRD2123,JBL Charge 5,Accessories,JBL,255,USD
+PRD2124,Dell XPS 13,Laptops,Dell,1367,USD
+PRD2125,Samsung Galaxy Watch 6,Wearables,Samsung,349,USD
+PRD2126,iPhone 15,Electronics,Apple,865,USD
+PRD2127,Samsung Galaxy Watch 6,Wearables,Samsung,403,USD
+PRD2128,AirPods Pro,Accessories,Apple,278,USD
+PRD2129,Dell XPS 13,Laptops,Dell,1312,USD
+PRD2130,Dell XPS 13,Laptops,Dell,1393,USD
+PRD2131,Apple Watch Series 9,Wearables,Apple,464,USD
+PRD2132,HP Spectre x360,Laptops,HP,1386,USD
+PRD2133,ThinkPad X1 Carbon,Laptops,Lenovo,1596,USD
+PRD2134,HP Spectre x360,Laptops,HP,1379,USD
+PRD2135,HP Spectre x360,Laptops,HP,1382,USD
+PRD2136,JBL Charge 5,Accessories,JBL,279,USD
+PRD2137,Galaxy Tab S9,Electronics,Samsung,752,USD
+PRD2138,MacBook Pro M3,Laptops,Apple,1964,USD
+PRD2139,iPhone 14,Electronics,Apple,819,USD
+PRD2140,MacBook Air M2,Laptops,Apple,1254,USD
+PRD2141,iPhone 15,Electronics,Apple,867,USD
+PRD2142,MacBook Pro M3,Laptops,Apple,2021,USD
+PRD2143,Galaxy S23,Electronics,Samsung,750,USD
+PRD2144,Galaxy S23,Electronics,Samsung,776,USD
+PRD2145,Dell XPS 13,Laptops,Dell,1361,USD
+PRD2146,AirPods Pro,Accessories,Apple,327,USD
+PRD2147,AirPods Pro,Accessories,Apple,290,USD
+PRD2148,Apple Watch Series 9,Wearables,Apple,458,USD
+PRD2149,iPhone 15,Electronics,Apple,986,USD
+PRD2150,Apple Watch Series 9,Wearables,Apple,487,USD
+PRD2151,Apple Watch Series 9,Wearables,Apple,487,USD
+PRD2152,Sony WH-1000XM5,Accessories,Sony,398,USD
+PRD2153,AirPods Pro,Accessories,Apple,212,USD
+PRD2154,Samsung Galaxy Watch 6,Wearables,Samsung,420,USD
+PRD2155,AirPods Pro,Accessories,Apple,236,USD
+PRD2156,AirPods Pro,Accessories,Apple,267,USD
+PRD2157,ThinkPad X1 Carbon,Laptops,Lenovo,1477,USD
+PRD2158,AirPods Pro,Accessories,Apple,270,USD
+PRD2159,MacBook Air M2,Laptops,Apple,1187,USD
+PRD2160,iPhone 15,Electronics,Apple,947,USD
+PRD2161,Dell XPS 13,Laptops,Dell,1347,USD
+PRD2162,Galaxy S23,Electronics,Samsung,873,USD
+PRD2163,Galaxy Tab S9,Electronics,Samsung,783,USD
+PRD2164,iPhone 15,Electronics,Apple,878,USD
+PRD2165,JBL Charge 5,Accessories,JBL,157,USD
+PRD2166,iPhone 15,Electronics,Apple,943,USD
+PRD2167,Logitech MX Master 3,Accessories,Logitech,169,USD
+PRD2168,Logitech MX Master 3,Accessories,Logitech,214,USD
+PRD2169,iPhone 15,Electronics,Apple,998,USD
+PRD2170,MacBook Pro M3,Laptops,Apple,2020,USD
+PRD2171,MacBook Pro M3,Laptops,Apple,2081,USD
+PRD2172,AirPods Pro,Accessories,Apple,201,USD
+PRD2173,Sony WH-1000XM5,Accessories,Sony,427,USD
+PRD2174,Apple Watch Series 9,Wearables,Apple,451,USD
+PRD2175,ThinkPad X1 Carbon,Laptops,Lenovo,1545,USD
+PRD2176,Apple Watch Series 9,Wearables,Apple,437,USD
+PRD2177,Galaxy S23,Electronics,Samsung,802,USD
+PRD2178,MacBook Air M2,Laptops,Apple,1237,USD
+PRD2179,Apple Watch Series 9,Wearables,Apple,364,USD
+PRD2180,ThinkPad X1 Carbon,Laptops,Lenovo,1494,USD
+PRD2181,Logitech MX Master 3,Accessories,Logitech,213,USD
+PRD2182,AirPods Pro,Accessories,Apple,334,USD
+PRD2183,Logitech MX Master 3,Accessories,Logitech,99,USD
+PRD2184,Logitech MX Master 3,Accessories,Logitech,75,USD
+PRD2185,Sony WH-1000XM5,Accessories,Sony,373,USD
+PRD2186,HP Spectre x360,Laptops,HP,1359,USD
+PRD2187,MacBook Air M2,Laptops,Apple,1295,USD
+PRD2188,JBL Charge 5,Accessories,JBL,175,USD
+PRD2189,ThinkPad X1 Carbon,Laptops,Lenovo,1588,USD
+PRD2190,AirPods Pro,Accessories,Apple,210,USD
+PRD2191,iPhone 15,Electronics,Apple,914,USD
+PRD2192,Sony WH-1000XM5,Accessories,Sony,423,USD
+PRD2193,Samsung Galaxy Watch 6,Wearables,Samsung,344,USD
+PRD2194,Samsung Galaxy Watch 6,Wearables,Samsung,382,USD
+PRD2195,HP Spectre x360,Laptops,HP,1450,USD
+PRD2196,ThinkPad X1 Carbon,Laptops,Lenovo,1592,USD
+PRD2197,AirPods Pro,Accessories,Apple,274,USD
+PRD2198,iPhone 15,Electronics,Apple,979,USD
+PRD2199,Galaxy Tab S9,Electronics,Samsung,797,USD
